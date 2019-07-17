@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    @IBOutlet weak var ratingControl: RatingControl!
     
     // MARK: Properties
     @IBOutlet weak var nameTextField: UITextField!
@@ -70,9 +71,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         imagePickerController.delegate = self
         
         present(imagePickerController, animated: true, completion: nil)
-    }
-    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        mealNameLabel.text = "Default Text"
     }
     
 
