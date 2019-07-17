@@ -4,4 +4,5 @@
 ## 실행화면
 
 
-![ex_screenshot](/Users/jeongminho/Desktop/스크린샷\ 2019-07-18\ 오전\ 1.31.06.png)
+1. 
+![]("https://user-images.githubusercontent.com/14807774/61393992-26a43a00-a8fd-11e9-9906-6402114bd726.png")
